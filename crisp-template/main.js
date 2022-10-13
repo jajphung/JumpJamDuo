@@ -24,6 +24,8 @@ function update() {
   }
 
   if (input.isJustPressed) {
+    play("coin");
+    addScore(1);
     player.vy = -2.5;
   }
 
